@@ -26,13 +26,12 @@
         </activity>
            
         <activity
-            android:name="com.virtualshop.NewActivity"
-            android:label="newactivity" > 
+            android:name="com.virtualshop.NewActivity">
             </activity>
             
         <activity
-            android:name="com.virtualshop.NewActivity2"
-            android:label="newactivity2">
+            android:name="com.virtualshop.NewActivity2">
+          
             
         </activity>
     </application>
