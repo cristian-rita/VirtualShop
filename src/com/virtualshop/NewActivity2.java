@@ -1,6 +1,5 @@
 package com.virtualshop;
 
-import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -62,7 +61,7 @@ public class NewActivity2 extends ListActivity{
 	        params.put("session", "61ff95571aa3db550df827f0cae10c938cd31fd2");
 
 	        AsyncHttpClient client = new AsyncHttpClient();
-	        client.get("http://10.0.2.2:5000/api/list", new JsonHttpResponseHandler() {
+	        client.get("http://192.168.1.6:8120/api/list", new JsonHttpResponseHandler() {
 
 	            @Override
 	            public void onStart() {
